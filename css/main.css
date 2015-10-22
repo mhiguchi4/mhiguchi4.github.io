@@ -13,7 +13,6 @@
 html {
     color: #222;
     font-size: 1em;
-    line-height: 1.4;
 }
 
 * {
@@ -103,39 +102,41 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+header {
+      background-color: #3A3A3B;
+      color: white;
+      width: 50%;
+      height:100%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      position: fixed;
+      margin: 0;
+      padding: 0;
+
+}
+
+.chi {
+    color: #43D8D0;
+}
+
 #menu {
     top: 2px;
     text-align: center;
     text-transform: uppercase;
-    font-family: montserrat;
 }
 
-header {
-      background-color: #3A3A3B;
-      color: white;
-
-}
-
-nav ul li {
-    text-align: center;
-    border-top: 2px solid
-    display: inline-block;
-    margin: 0.5em;
-    float: right;
-}
 
 body {
     font-family: helvetica;
-    margin: 30px;
-    padding: 10px;
 
 }
 
 h1 {
-    font-family: montserrat;
-    float: left;
-    padding: 0px;
-    margin: 0em;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    font-size: 60px;
 }
 
 h2 {
@@ -149,36 +150,91 @@ p {
 }
 
 img {
-    width: 200px;
+    width: 100%;
     display: block;
     float: left;
-    padding: 1em
 
 }
 
 .midori {
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 50%;
 }
 
 .photolist {
-    padding-top: 40px;
+float: right;
+padding: 0px;
+margin: 0;
+width: 50%;
+left:50%;
+position: absolute;
+}
+
+ul.photos {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 .thumbnail {
     display: inline-block;
-    width: 200px;
-    vertical-align: top;
-    margin: 0 5px 40px;
+    width: 50%;
     position: relative;
+    float: left;
 
 }
 
+.thumbnail p {
+    color: white;
+    position: absolute;
+    top: 30px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    opacity: 0;
+    -webkit-transition: opacity 300ms;
+    transition: opacity 300ms;
+    background: rgba(0,0,0,0.5);
+}
 
+.thumbnail h2 {
+    color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    opacity: 0;
+    -webkit-transition: opacity 300ms;
+    transition: opacity 300ms;
+    background: rgba(0,0,0,0.5);
+}
 
+.thumbnail:hover p {
+  opacity: 1;
+  visibility: visible;
+}
 
+.thumbnail:hover h2 {
+  opacity: 1;
+  visibility: visible;
+}
 
+.thumbnail:hover img {
+  background: rgba(0,0,0,0.5);
+}
+
+.aboutme {
+  float: right;
+  width: 50%;
+  margin-top: 10%;
+  padding: 10%;
+  text-align: left;
+}
 
 
 
