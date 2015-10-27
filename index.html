@@ -6,10 +6,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
-
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -19,402 +16,411 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <div>
-        <header>
+    <header>
 
         <h1><a href="index.html">HIGU<span class="chi">CHI</span> EATS</a></h1>
 
         <h2> Eating my way through the windy city</h2>
 
-        <br>
+        <img class="midori" src="img/midori.png" alt="midori higuchi">
 
         <nav id="menu">
-            <a href="">Filter by neighborhood</a>
+            <select name="filter" id="filter">
+                <option value="default">Filter By Neighborhood</option>
+                <option value="chinatown">Chinatown</option>
+                <option value="uptown">Uptown</option>
+                <option value="logansquare">Logan Square</option>
+                <option value="loop">The Loop</option>
+                <option value="wickerpark">Wicker Park</option>
+                <option value="lincolnpark">Lincoln Park</option>
+                <option value="streeterville">Streeterville</option>
+                <option value="lakeview">Lakeview</option>
+                <option value="westloop">West Loop</option>
+                <option value="goldcoast">Gold Coast</option>
+                <option value="rivernorth">River North</option>
+                <option value="northpark">North Park</option>
+            </select >
             |
             <a href="aboutme.html">About Me</a>
         </nav>
 
-        <br>
-        
-        <img class="midori" src="img/midori.png" alt="midori higuchi">
-        </header>
-     </div>
+    </header>
 
      <div class="photolist">
         <ul class="photos clearfix">
-            <div class ="thumbnail f-chinatown">
+            <div class ="thumbnail clearfix f-chinatown">
                 <li><a><img src="img/ajiichibankitkat.jpg" alt="aji ichiban" /></a></li>
                 <h2>Aji Ichiban</h2>
                 <p>Featured: Green Tea Kit Kats<br>
                 So this isn't really a restaurant, but more like the greatest candy store ever. They have everything from Pocky and rice candy, to dried octopus and fruit. Yum!</p>
             </div>
-            <div class ="thumbnail f-loop f-uptown">
+            <div class ="thumbnail clearfix f-loop f-uptown">
                 <li><a><img src="img/bale.jpg" alt="bale" /></a></li>
                 <h2>Ba Le</h2>
                 <p>Featured: Chicken Bahn Mi.<br>
                 When you're sick of eating Subway and Potbelly for lunch in the Loop, Vietnamese sandwiches are probably the best choice.</p>
             </div>
-            <div class ="thumbnail f-logansquare">
+            <div class ="thumbnail clearfix f-logansquare">
                 <li><a><img src="img/bangbang.jpg" alt="bang bang pie" /></a></li>
                 <h2>Bang Bang Pie</h2>
                 <p>Featured: Key lime and Strawberry Rhubarb.<br>
                 Who doesn't love pie?! They also have killer biscuits chicken pot pie.</p>
             </div>
-            <div class ="thumbnail f-loop">
+            <div class ="thumbnail clearfix f-loop">
                 <li><a><img src="img/beaverdonuts.jpg" alt="beaver donuts" /></a></li>
                 <h2>Beavers Donuts</h2>
                 <p>Featured: S'mores Mini Donuts.<br>
                 Need I say more? Other toppings include Nutella, marshmallow fluff, and even Pop Rocks.</p>
             </div>
-            <div class ="thumbnail f-wickerpark f-lincolnpark">
+            <div class ="thumbnail clearfix f-wickerpark f-lincolnpark">
                 <li><a><img src="img/beeteabao.jpg" alt="bee and tea bao" /></a></li>
                 <h2>Bee &amp; Tea</h2>
                 <p>Featured: Strawberries N Cream Boba Tea and Pork Bao.<br>
                 For all you boba lovers, everything about this place is perfect. Check out their sandwiches and acai bowls too.</p>
             </div>
-            <div class ="thumbnail f-loop f-lincolnpark">
+            <div class ="thumbnail clearfix f-loop f-lincolnpark">
                 <li><a><img src="img/benjyehuda.jpg" alt="benjyehuda" /></a></li>
                 <h2>Benjyehuda</h2>
                 <p>Featured: Chicken Shwarma Box.<br>
                 Another Loop lunch favorite. This is like Meditteranean Chipotle, but better. HUGE portions for awesome prices, and they have the best fries in the city.</p>
             </div>
-            <div class ="thumbnail f-lakeview">
+            <div class ="thumbnail clearfix f-lakeview">
                 <li><a><img src="img/bignlittles.jpg" alt="big n littles" /></a></li>
                 <h2>Big N Littles</h2>
                 <p>Featured: Raw Ahi Tuna Poke Taco.<br>Don't be fooled by the sketchy appearance of this place. This is the best poke taco joint in the city. Their po boy sandwiches are also on point.</p>
             </div>
-            <div class ="thumbnail ">
+            <div class ="thumbnail clearfix ">
                 <li><a><img src="img/bigshoulders.jpg" alt="big shoulders" /></a></li>
                 <h2>Big Shoulders Coffee</h2>
                 <p>Featured: Marshmallow Latte.<br>
                 Seriously, the marshmallow latte. It's the only reason I go to this place. Well, and for the super friendly staff and atmosphere.</p>
             </div>
-            <div class ="thumbnail f-wickerpark">
+            <div class ="thumbnail clearfix f-wickerpark">
                 <li><a><img src="img/birchwood.jpg" alt="birchwood pancakes" /></a></li>
                 <h2>Birchwood Kitchen</h2>
                 <p>Featured: Ricotta Pistachio Pancakes.<br>
                 These are only on the brunch menu, but they should be on the regular menu!</p>
             </div>
-            <div class ="thumbnail f-wickerpark">
+            <div class ="thumbnail clearfix f-wickerpark">
                 <li><a><img src="img/bongoroom.jpg" alt="bongo room" /></a></li>
                 <h2>The Bongo Room</h2>
                 <p>Featured: ?<br>
                 I don't actually remembered the name of this dish, but I DO remember that we also ordered the white chocolate and caramel pretzel pancake. It was so good I didn't even have time for a photo.</p>
                 </div>
-            <div class ="thumbnail f-loop">
+            <div class ="thumbnail clearfix f-loop">
                 <li><a><img src="img/brownbag.jpg" alt="brown bag tacos" /></a></li>
                 <h2>Brown Bag Seafood Co.</h2>
                 <p>Featured: Grilled Shrimp Tacos.<br>
                 This wonderful gem is somehow well hidden, even though it is right across from Millennium Park. Always fresh and decent prices for seafood.</p>
             </div>
-            <div class ="thumbnail f-streeterville">
+            <div class ="thumbnail clearfix f-streeterville">
                 <li><a><img src="img/burgerbistro.jpg" alt="burger bistro" /></a></li>
                 <h2>The Burger Bistro</h2>
                 <p>Featured: Bistro Burger.<br>
                 It's hard to compete with a thousand other awesome Chicago burger joints, but this one stands out. Well, mostly for their peanut butter and jelly milkshake. But the burgers are good too!</p>
             </div>
-            <div class ="thumbnail f-chinatown">
+            <div class ="thumbnail clearfix f-chinatown">
                 <li><a><img src="img/cai.jpg" alt="cai dim dum" /></a></li>
                 <h2>Cai</h2>
                 <p>Featured: Shrimp Dumplings, Mochi, Lo Mai Gai, and Pork Buns.<br>
                 Dim Sum is always fun, because you can try new, interesting things every time - the menu is HUGE. However, mango mochi and sesame balls will always be my favorite.</p>
             </div>
-            <div class ="thumbnail f-lakeview">
+            <div class ="thumbnail clearfix f-lakeview">
                 <li><a><img src="img/cheesiestots.jpg" alt="cheesies" /></a></li>
                 <h2>Cheesie's</h2>
                 <p>Featured: Mac N Cheese Grilled Cheese and Tater Tots.<br>
                 The go-to spot for drunk people at 3am. However, I actually enjoy this place 100% sober.</p>
             </div>
-            <div class ="thumbnail f-westloop">
+            <div class ="thumbnail clearfix f-westloop">
                 <li><a><img src="img/chickenshop.jpg" alt="chicken shop dirty burger" /></a></li>
                 <h2>Chicken Shop</h2>
                 <p>Featured: The Dirty Burger.<br>
                 I actually ate this while at the Taste of Randolph Festival. And for a restaurant known for chicken, they seriously know how to make a damn good burger.</p>
             </div>
-            <div class ="thumbnail f-lincolnpark">
+            <div class ="thumbnail clearfix f-lincolnpark">
                 <li><a><img src="img/danellapizza.jpg" alt="pizzeria da nella" /></a></li>
                 <h2>Pizzeria Da Nella</h2>
                 <p>Featured: Ortolana Pizza.<br>
                 I'm picky about my pizza after living in Rome for a semester, but this is as close as it gets to the authentic stuff! Oh, and they have a Nutella Pizza, if you need more convincing.</p>
             </div>
-            <div class ="thumbnail f-goldcoast f-rivernorth">
+            <div class ="thumbnail clearfix f-goldcoast f-rivernorth">
                 <li><a><img src="img/docbs.jpg" alt="doc bs" /></a></li>
                 <h2>Doc B's Fresh Kitchen</h2>
                 <p>Featured: Carnitas Sandwich.<br>
                 I love the entire menu here. The sandwiches, the salads, the sweet potato chips and guac, even the quinoa side dish that comes with the sandwiches...</p>
             </div>
-            <div class ="thumbnail f-goldcoast">
+            <div class ="thumbnail clearfix f-goldcoast">
                 <li><a><img src="img/downtowndogs.jpg" alt="downtown dogs" /></a></li>
                 <h2>Downtown Dogs</h2>
                 <p>Featured: The Downtown Dog, obviously.<br>
                 Not only is the decor of this tiny place super cute and full of pictures of actual dogs, but this is probably my favorite hot dog in the city. Sorry, Portillo's.</p>
             </div>
-            <div class ="thumbnail f-loop">
+            <div class ="thumbnail clearfix f-loop">
                 <li><a><img src="img/eggys.jpg" alt="eggys" /></a></li>
                 <h2>Eggy's Diner</h2>
                 <p>Featured: Veggie Skillet and Eggy's Benedict.<br>
                 When Wildberry Cafe gets too crowded, which is all the time, walk over here instead. Everything is good and cheap! Our waiter was also hilarious.</p>
             </div>
-            <div class ="thumbnail f-edgewater">
+            <div class ="thumbnail clearfix f-edgewater">
                 <li><a><img src="img/ethiopian.jpg" alt="ethiopian diamond" /></a></li>
                 <h2>Ethiopian Diamond</h2>
                 <p>Featured: Chicken, Beef and Combo Tibs. <br>
                 This was my first time eating Ethiopian food, so I had no idea what to expect. I ended up being blown away by the intensely rich flavor, tender meats, and overall awesomely unique experience.  </p>
             </div>
-            <div class ="thumbnail f-goldcoast f-rivernorth">
+            <div class ="thumbnail clearfix f-goldcoast f-rivernorth">
                 <li><a><img src="img/ghirardelli.jpg" alt="ghirardelli sundae" /></a></li>
                 <h2>Ghirardelli Chocolate</h2>
                 <p>Featured: Salted Caramel Sundae.<br>I know this is about as touristy as it gets, but this sundae is still my favorite in the city. They also have the best salted caramel hot chocolate. I may or may not be obsessed with anything salted caramel, though.</p>
             </div>
-            <div class ="thumbnail f-goldcoast">
+            <div class ="thumbnail clearfix f-goldcoast">
                 <li><a><img src="img/gibsons.jpg" alt="gibsons oysters" /></a></li>
                 <h2>Gibson's Steakhouse</h2>
                 <p>Featured: Oysters.<br>
                 I think you're supposed to order meat here, so I don't know why I only got oysters and a salad...they were still amazing, nonetheless.</p>
             </div>
-            <div class ="thumbnail f-westloop f-loop">
+            <div class ="thumbnail clearfix f-westloop f-loop">
                 <li><a><img src="img/glazed.jpg" alt="glazed and infused" /></a></li>
                 <h2>Glazed and Infused</h2>
                 <p>Featured: Raspberry Old Fashioned<br>
                 Donuts are apparently the new cupcakes, and this place sure knows how to capitalize on the trend. I hear the Maple Bacon Long John is a must-try, as well.</p>
             </div>
-            <div class ="thumbnail f-lincolnpark">
+            <div class ="thumbnail clearfix f-lincolnpark">
                 <li><a><img src="img/homeslicedip.jpg" alt="homeslice goat cheese dip" /></a></li>
                 <h2>Homeslice Wheelhouse</h2>
                 <p>Featured: Goat Cheese Dip.<br>
                 Sure, the pizza is amazing. But THIS IS THE BEST! No really, I could just eat this as my meal.</p>
             </div>
-            <div class ="thumbnail f-loop">
+            <div class ="thumbnail clearfix f-loop">
                 <li><a><img src="img/hotwoks.jpg" alt="hotwoks sushi" /></a></li>
                 <h2>Hot Woks Cool Sushi</h2>
                 <p>Featured: Salmon Avocado, Sweet Potato Tempura Rolls.<br>For a sushi place located on Michigan Avenue, this is so cheap. Maybe it's not the best sushi ever, but I end up here at least once a month.</p>
             </div>
-            <div class ="thumbnail f-wickerpark">
+            <div class ="thumbnail clearfix f-wickerpark">
                 <li><a><img src="img/icream.jpg" alt="icream" /></a></li>
                 <h2>iCream</h2>
                 <p>Featured: Blueberry Banana with Chocolate Chips.<br>
                 This place gets a bad rep for having terrible customer service and the store itself is always gross-looking, but the ice cream is always tasty and made from scratch! Just don't get the milkshakes.</p>
             </div>
-            <div class ="thumbnail f-lincolnpark">
+            <div class ="thumbnail clearfix f-lincolnpark">
                 <li><a><img src="img/jamnhoney.jpg" alt="jam n honey" /></a></li>
                 <h2>Jam N Honey</h2>
                 <p>Featured: Chorizo Potato Hash.<br>
                 Huge menu, large portions, very decent prices, and they put a massive jar of Nutella on every table. What more do you need in life?</p>
             </div>
-            <div class ="thumbnail">
+            <div class ="thumbnail clearfix" "f-northpark">
                 <li><a><img src="img/javanmug.jpg" alt="java n mug bingsoo" /></a></li>
                 <h2>Java N Mug</h2>
                 <p>Featured: Bingsoo.<br>
                 I had never even heard of Korean bingsoo until I came here, but just look at it!! They also have amazing green tea lattes, board games, weird Asian music, and free wifi.</p>
             </div>
-            <div class ="thumbnail f-wickerpark">
+            <div class ="thumbnail clearfix f-wickerpark">
                 <li><a><img src="img/jennis.jpg" alt="jennis ice creams" /></a></li>
                 <h2>Jenni's Splendid Ice Cream</h2>
                 <p>Featured: Coconut and Mango Lassi.<br>
                 All Fair Trade ingredients, super unique flavors, high quality stuff. Probably the most hip ice cream shop ever.</p>
             </div>
-            <div class ="thumbnail f-chinatown">
+            <div class ="thumbnail clearfix f-chinatown">
                 <li><a><img src="img/joyyeebibim.jpg" alt="joy yee bibimbop" /></a></li>
                 <h2>Joy Yee's</h2>
                 <p>Featured: Beef Bibimbop and Thai Milk Bubble Tea.<br>
                 Probably the most popular place in Chinatown, and with good reason. The menu is insanely huge - I'm pretty sure there's about 3948534426 different kinds of bubble tea you can order.</p>
             </div>
-            <div class ="thumbnail f-streeterville f-wickerpark">
+            <div class ="thumbnail clearfix f-streeterville f-wickerpark">
                 <li><a><img src="img/kanelawaffle.jpg" alt="kanela chicken and waffles" /></a></li>
                 <h2>Kanela Breakfast Club</h2>
                 <p>Featured: Fried Chicken and Waffles.<br>
                 Carbs on carbs on carbs. And so worth it. You also HAVE to get the Monkey Bread as a starter. The Pork Belly Benedict is also insane.</p>
             </div>
-            <div class ="thumbnail f-chinatown">
+            <div class ="thumbnail clearfix f-chinatown">
                 <li><a><img src="img/kungfu.jpg" alt="kung fu tea" /></a></li>
                 <h2>Kung Fu Tea</h2>
                 <p>Featured: Kung Fu Milk Tea...and a bunch of others.<br>
                 There are so many flavor combinations that I can't even remember what my friends ordered. I was boring and got the plain old Milk Tea, but it is so good!</p>
             </div>
-            <div class ="thumbnail f-lakeview f-rivernorth">
+            <div class ="thumbnail clearfix f-lakeview f-rivernorth">
                 <li><a><img src="img/laboulangerie.jpg" alt="la boulangerie macaroons" /></a></li>
                 <h2>La Boulangerie</h2>
                 <p>Featured: Macaroon Assortment!<br>
                 If you feel like treating yo-self, be fancy and get these. They basically melt in your mouth. They have other cool French stuff, like baguettes and crepes and eclaires. Oui!</p>
             </div>
-            <div class="thumbnail f-westloop f-wickerpark">
+            <div class="thumbnail clearfix f-westloop f-wickerpark">
                 <li><a><img src="img/lacolombe.jpg" alt="la colombe coffee" /></a></li>
                 <h2>La Colombe</h2>
                 <p>Featured: Cold Brew.<br>
                 Possibly the most hipster of all coffee shops. The cold brew was lovely and intense and flavorful. But there's no wifi...</p>
             </div>
-            <div class="thumbnail f-goldcoast f-loop f-lincolnpark">
+            <div class="thumbnail clearfix f-goldcoast f-loop f-lincolnpark">
                 <li><a><img src="img/lepainspread.jpg" alt="le pain" /></a></li>
                 <h2>Le Pain Quotidien</h2>
                 <p>Featured: Smoked Salmon Tartine, Waffle, and Ham Sandwich.<br>
                 Everything on this menu is delicious. Sometimes it's just a le pain in the ass because you pay a lot of money for pretty small portions. </p>
             </div>
-            <div class="thumbnail f-wickerpark">
+            <div class="thumbnail clearfix f-wickerpark">
                 <li><a><img src="img/lillisq.jpg" alt="lillis q" /></a></li>
                 <h2>Lillie's Q</h2>
                 <p>Featured: Pulled Pork Sandwich and Sweet Potato Fries.<br>
                 Come for the meats, stay for the huge variety of hot/smoky/creamy sauces spread on each table. Pour them on meat, fries, mac and cheese, EVERYTHING.</p>
             </div>
-            <div class="thumbnail f-westloop">
+            <div class="thumbnail clearfix f-westloop">
                 <li><a><img src="img/littlegoat.jpg" alt="little goat burger" /></a></li>
                 <h2>Little Goat</h2>
                 <p>Featured: Goat Almighty Burger.<br>
                 Probably the coolest diner in Chicago. Breakfast served all day, killer sammiches, unique burgers, and you must always have room for dessert.</p>
             </div>
-            <div class="thumbnail f-rivernorth f-streeterville">
+            <div class="thumbnail clearfix f-rivernorth f-streeterville">
                 <li><a><img src="img/lyfe.jpg" alt="lyfe chia water" /></a></li>
                 <h2>Lyfe Kitchen</h2>
                 <p>Featured: Ginger Mint and Orange Ginger Chia Water.<br>
                 All the food here tastes good, and is generally good for you too, with locally and sustainably sourced ingredients. I'm obsessed with their chia waters and fish tacos!</p>
             </div>
-            <div class="thumbnail">
+            <div class="thumbnail clearfix">
                 <li><a><img src="img/mexique.jpg" alt="mexique duck" /></a></li>
                 <h2>Mexique</h2>
                 <p>Featured: Pato Al Tamarindo.<br>
                 French-inspired Mexican food. This meal was beyond exceptional, and every single dish looks like a work of art. Also a must: the dessert enchiladas!</p>
             </div>
-            <div class="thumbnail">
+            <div class="thumbnail clearfix" "f-northpark">
                 <li><a><img src="img/midorispread.jpg" alt="midori japanese sushi" /></a></li>
                 <h2>Midori</h2>
                 <p>Featured: Hand Roll, Chirashi, and Norway Maki.<br>
                 Besides having the greatest name ever, this restaurant has deliciously fresh choices. All the Asians go here regularly, so you know it's legit.</p>
             </div>
-            <div class="thumbnail f-lincolnpark">
+            <div class="thumbnail clearfix f-lincolnpark">
                 <li><a><img src="img/mollyshersheys.jpg" alt="mollys cupcakes" /></a></li>
                 <h2>Molly's Cupcakes</h2>
                 <p>Featured: S'mores Cupcake.<br>
                 I don't think Molly's actually has this cupcake anymore, since there menu is ever-changing. But you can't go wrong here, really. So grab a cupcake and latte, and sit on the swings at the espresso bar!</p>
             </div>
-            <div class="thumbnail f-streeterville">
+            <div class="thumbnail clearfix f-streeterville">
                 <li><a><img src="img/niu.jpg" alt="niu japanese" /></a></li>
                 <h2>Niu Japanese</h2>
                 <p>Featured: Chirashi.<br>
                 Chirashi is usually my go-to Japanese dish when I don't just want maki rolls. And this place knows how to make it as pretty as possible. If you happen to catch an AMC movie before dinner, show them your ticket! You'll get a small discount.</p>
             </div>
-            <div class="thumbnail f-westloop">
+            <div class="thumbnail clearfix f-westloop">
                 <li><a><img src="img/nonnas.jpg" alt="nonnas sausage and peppers" /></a></li>
                 <h2>Nonna's</h2>
                 <p>Featured: Frank's Italian Sausage.<br>
                 Another item I ate at Taste of Randolph, but this was the most flavorful sausage I've ever had. This place is owned by Formento's which is the fancier sit-down restaurant with the best carbonara pasta in Chicago.</p>
             </div>
-            <div class="thumbnail f-goldcoast">
+            <div class="thumbnail clearfix f-goldcoast">
                 <li><a><img src="img/panang.jpg" alt="panang pad thai" /></a></li>
                 <h2>Panang</h2>
                 <p>Featured: Pad Thai and Bubble Tea.<br>
                 Anywhere that has bubble tea is always a good choice. Good, cheap thai food.</p>
             </div>
-            <div class="thumbnail f-westloop">
+            <div class="thumbnail clearfix f-westloop">
                 <li><a><img src="img/pizzaeast.jpg" alt="pizza east" /></a></li>
                 <h2>Pizza East</h2>
                 <p>Featured: Tomato, Basil and Mozzarella Pizza, Salame Pizza.<br>
                 Amazing pizzas, but look at that garlic bread. They pour garlic butter on top of it right in front of you, and it's FREE.</p>
             </div>
-            <div class="thumbnail f-loop">
+            <div class="thumbnail clearfix f-loop">
                 <li><a><img src="img/proteinbar.jpg" alt="protein bar shake" /></a></li>
                 <h2>Protein Bar</h2>
                 <p>Featured: Avo-Matcha Protein Shake.<br>
                 Love this place if I feel like being healthy. This particular shake was made for me because I love anything avocado and matcha green tea. Try the Baja Salad too!</p>
             </div>
-            <div class="thumbnail f-westloop">
+            <div class="thumbnail clearfix f-westloop">
                 <li><a><img src="img/publicanricedishspread.jpg" alt="publican rice egg dish" /></a></li>
                 <h2>Publican</h2>
                 <p>Featured: I don't think this is on the brunch menu anymore, but eveything here is outstanding. Pork Schnitzel, waffles, Crab Scramble, and of course the Bloody Mary.</p>
             </div>
-            <div class="thumbnail f-rivernorth">
+            <div class="thumbnail clearfix f-rivernorth">
                 <li><a><img src="img/purplepigg.jpg" alt="purple pig dessert" /></a></li>
                 <h2>The Purple Pig</h2>
                 <p>Featured: Chocolate-Filled Brioche.<br>
                 Since this place is small and always packed, I rarely come here. But when I do, I order just about every single small shared plate, and this freakin' beautiful brioche.</p>
             </div>
-            <div class="thumbnail f-rivernorth f-loop">
+            <div class="thumbnail clearfix f-rivernorth f-loop">
                 <li><a><img src="img/shakeshack1.jpg" alt="shake shack burger" /></a></li>
                 <h2>Shake Shack</h2>
                 <p>Featured: The Original Shack Burgers.<br>
                 The East Coast's very own is now in Chicago. And it's SO much better than Five Guys! All we need now is Culver's, but I may be biased since I'm a Wisconsinite at heart.</p>
             </div>
-            <div class="thumbnail f-lincolnpark">
+            <div class="thumbnail clearfix f-lincolnpark">
                 <li><a><img src="img/snowdragoncoconut.jpg" alt="snow dragon shave ice" /></a></li>
                 <h2>Snow Dragon Shavery</h2>
                 <p>Featured: Coconut Shaved Ice.<br>
                 Who knew flavored snow could taste so good? Not sure if it's healthier than froyo, but I keep telling myself that. Also try to green tea flavor, and top it with lots of mochi.</p>
             </div>
-            <div class="thumbnail f-goldcoast">
+            <div class="thumbnail clearfix f-goldcoast">
                 <li><a><img src="img/sprinklesdino.jpg" alt="sprinkles cupcakes" /></a></li>
                 <h2>Sprinkles</h2>
                 <p>Featured: Milk Chocolate.<br>
                 I just wanted this one because it had a dinosaur on it that day. But every flavor is amazing, despite dealing with huge touristy lines to this tiny shop. Personal favorites are Chai, Banana, and Red Velvet (duh).</p>
             </div>
-            <div class="thumbnail f-wickerpark f-streeterville f-lakeview">
+            <div class="thumbnail clearfix f-wickerpark f-streeterville f-lakeview">
                 <li><a><img src="img/standspocket.jpg" alt="stans donuts" /></a></li>
                 <h2>Stan's Donuts</h2>
                 <p>Featured: Biscoff Banana Pocket.<br>
                 Hands down my favorite of all the donut shops in Chicago. </p>
             </div>
-            <div class="thumbnail f-goldcoast">
+            <div class="thumbnail clearfix f-goldcoast">
                 <li><a><img src="img/sunnysideup.jpg" alt="sunny side up breakfast" /></a></li>
                 <h2>Sunny Side Up</h2>
                 <p>Featured: Two Eggs Over Easy and Waffles.<br>
                 Extensive menu with decent prices, considering its Gold Coast location. And yes, all the waffles here are heart-shaped by default, so that's awesome. The coffee shop downstairs is also excellent!</p>
             </div>
-            <div class="thumbnail f-westloop">
+            <div class="thumbnail clearfix f-westloop">
                 <li><a><img src="img/sushidokku.jpg" alt="sushi dokku roll" /></a></li>
                 <h2>Sushi Dokku</h2>
                 <p>Featured: Tuna Truffle Nigiri.<br>
                 This is my favorite sushi bar in the city. I could not stop talking about this particular nigiri for WEEKS. Heaven in your mouth. Everything on this menu is top notch.</p>
             </div>
-            <div class="thumbnail f-uptown" >
+            <div class="thumbnail clearfix f-uptown" >
                 <li><a><img src="img/tanknoodle.jpg" alt="tank noodle pad thai" /></a></li>
                 <h2>Tank Noodle</h2>
                 <p>Featured: Classic Bubble Tea.<br>
                 The chicken pho was so good I slupred it down before I could snap a pic. Large portions, amazing prices, bubble tea, what more do you need?</p>
             </div>
-            <div class="thumbnail f-rivernorth">
+            <div class="thumbnail clearfix f-rivernorth">
                 <li><a><img src="img/tanta.jpg" alt="tanta peruvian" /></a></li>
                 <h2>Tanta</h2>
                 <p>Featured: Jalea.<br>
                 After visiting Peru, their food quickly became my new favorite. And this restaurant makes me feel like I'm back in Lima. Other awesome dishes include Cebiche Mixto, Cremoso Tiradito, Causita Clasica, and Lomo Saltado.</p>
             </div>
-            <div class="thumbnail f-wickerpark">
+            <div class="thumbnail clearfix f-wickerpark">
                 <li><a><img src="img/umamiegg.jpg" alt="umami burger" /></a></li>
                 <h2>Umami Burger</h2>
                 <p>Featured: Sunny Side Burger.<br>
                 If you don't feel like waiting in line for Au Cheval, try this place. It's probably my second favorite in the city! Try the Truffle Fries too, and order the Ahi Tuna Burger if you're not into beef.</p>
             </div>
-            <div class="thumbnail f-westloop">
+            <div class="thumbnail clearfix f-westloop">
                 <li><a><img src="img/vanille.jpg" alt="vanille macaroons" /></a></li>
                 <h2>Vanille</h2>
                 <p>Featured: Raspberry and Pistachio Macaroons<br>
                 Hidden in the cute West Loop French Market, this place is famous for their macaroons. But while you're in the French Market, grab a bubble tea and a lobster roll too.</p>
             </div>
-            <div class="thumbnail f-wickerpark">
+            <div class="thumbnail clearfix f-wickerpark">
                 <li><a><img src="img/wasabi.jpg" alt="wasabi ramen" /></a></li>
                 <h2>Wasabi</h2>
                 <p>Featured: Tonkatsu Ramen. <br>
                 With so many trendy ramen shops these days, it's hard to choose where to go. Well, I'm making your choice easier by saying this place is the best one! Get the pork belly buns too. </p>
             </div>
-            <div class="thumbnail f-rivernorth">
+            <div class="thumbnail clearfix f-rivernorth">
                 <li><a><img src="img/westtown.jpg" alt="west town bakery" /></a></li>
                 <h2>West Town Bakery</h2>
                 <p>Featured: Cake Batter Doughssant.<br>
                 Yes, that is in fact a donut croissant hybrid. Incase you are sick of the wonut trend (waffle donut hybrid), this is a good alternative.</p>
             </div>
-            <div class="thumbnail f-loop">
+            <div class="thumbnail clearfix f-loop">
                 <li><a><img src="img/wildberry.jpg" alt="wildberry crepes" /></a></li>
                 <h2>Wildberry</h2>
                 <p>Featured: Wildberry Crepes.<br>
                 Super crowded on weekends, so try coming here during the week for lunch. For a more savory option, try one of the skillets, or the Napa Valley Fig Omelette!</p>
             </div>
-            <div class="thumbnail f-wickerpark">
+            <div class="thumbnail clearfix f-wickerpark">
                 <li><a><img src="img/winchesterwaffle.jpg" alt="winchester waffle" /></a></li>
                 <h2>The Winchester</h2>
                 <p>Featured: Waffle.<br>
-                Another hipster-y brunch place</p>
+                Another hipster-y brunch spot. Whatever you get, always get their waffle on the side. Favorites include the Fried Black Rice, Avocado Toast, and Eggs Benedict.</p>
             </div>
-            <div class="thumbnail f-goldcoast">
+            <div class="thumbnail clearfix f-goldcoast">
                 <li><a><img src="img/wonuts.jpg" alt="wonuts" /></a></li>
                 <h2>Wonuts</h2>
-                <p></p>
-                <p></p>
+                <p>Featured: Birthday Cake and Chocolate Ganache.<br>
+                This place steps up the donut craze one notch by creating waffle-donuts, or wonuts. I still like regular donuts more, but these are still fun and delicious!</p>
             </div>
         </ul>
     </div>
