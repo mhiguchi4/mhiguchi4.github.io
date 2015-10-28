@@ -241,10 +241,13 @@ ul.photos {
   padding-left: 20%;
   padding-right: 20%;
   padding-bottom: 5%;
-  display: block;
-  
+  display: block; 
 }
 
+.shark {
+  width: 20%;
+  float: right;
+}
 
 
 /* ==========================================================================
